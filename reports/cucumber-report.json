@@ -1,0 +1,223 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-no-automation-exercise;fazer-login-com-credenciais-válidas",
+        "keyword": "Cenário",
+        "line": 5,
+        "name": "Fazer login com credenciais válidas",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 278027500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 6,
+            "name": "que estou na página inicial do Automation Exercise",
+            "match": {
+              "location": "dist\\step_definitions\\steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8623217199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 7,
+            "name": "clico no link \"Signup Login\"",
+            "match": {
+              "location": "dist\\step_definitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 307189700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "preencho o campo de email com \"Jeniffer@gmail.com\"",
+            "match": {
+              "location": "dist\\step_definitions\\steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143743700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 9,
+            "name": "preencho o campo de senha com \"Jeni1234\"",
+            "match": {
+              "location": "dist\\step_definitions\\steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68553700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "clico no botão \"Login\"",
+            "match": {
+              "location": "dist\\step_definitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 920439500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 11,
+            "name": "deve aparecer \"Logged in as Jeniffer\"",
+            "match": {
+              "location": "dist\\step_definitions\\steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28216099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 152544499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-no-automation-exercise;fazer-login-com-credenciais-inválidas",
+        "keyword": "Cenário",
+        "line": 13,
+        "name": "Fazer login com credenciais inválidas",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 244349299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 14,
+            "name": "que estou na página inicial do Automation Exercise",
+            "match": {
+              "location": "dist\\step_definitions\\steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2808439499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 15,
+            "name": "clico no link \"Signup Login\"",
+            "match": {
+              "location": "dist\\step_definitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 296743900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 16,
+            "name": "preencho o campo de email com \"Jeniffer@gmail.com\"",
+            "match": {
+              "location": "dist\\step_definitions\\steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143539699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 17,
+            "name": "preencho o campo de senha com \"Jeni12340\"",
+            "match": {
+              "location": "dist\\step_definitions\\steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57700299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 18,
+            "name": "clico no botão \"Login\"",
+            "match": {
+              "location": "dist\\step_definitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 456368700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 19,
+            "name": "deve aparecer \"Your email or password is incorrect!\"",
+            "match": {
+              "location": "dist\\step_definitions\\steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17611000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 766723599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-no-automation-exercise",
+    "line": 3,
+    "keyword": "Funcionalidade",
+    "name": "Login no Automation Exercise",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
